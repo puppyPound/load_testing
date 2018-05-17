@@ -1,0 +1,28 @@
+{
+  "config": {
+    "target": "http://localhost:3000",
+    "phases": [
+      {
+       "duration": 30,
+       "arrivalRate": 20
+      }
+    ]
+  },
+  "scenarios": [
+    {
+      "flow": [
+        {
+          "post": {
+            "url": "/signup",
+            "json": {
+              "username": "theHound",
+              "email": "thehound@gregor.com",
+              "phoneNumber": "123456789",
+              "password": "123"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
