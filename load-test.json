@@ -9,6 +9,18 @@
       {
         "duration": 10,
         "arrivalRate": 30
+      },
+      {
+        "duration": 10,
+        "arrivalRate": 50
+      },
+      {
+        "duration": 10,
+        "arrivalRate": 100
+      },
+      {
+        "duration": 10,
+        "arrivalRate": 120
       }
     ],
     "processor" : "./load-test-signup.js"
